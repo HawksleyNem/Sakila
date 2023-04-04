@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+header {
+    position: fixed;
+    background-color: rgba(58, 55, 58, 0.3);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    transition: 0.3s;
+}
+
+header:hover {
+    background-color: rgba(58, 55, 58, 1);
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.web-logo {
+    width: 4vw;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    margin-left: 2vw;
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    color: rgba(255, 157, 234, 0.5);;
+}
+
+.container {
+    width: 85%;
+}
+
+main {
+    padding-top: 18vh;
+    display: flex;
+    justify-content: center;
+}
+
+.item-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 8vh;
+    font-size: 2em;
+}
+
+.item {
+    width: 21vw;
+    height: 50vh;
+    background-color: rgb(62, 62, 62);
+    margin-bottom: 3.5vh;
+    margin-inline: 1vw;
+    padding: 5vh;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.small-item {
+    height: auto;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 10px 0px rgba(255, 157, 234, 0.5); 
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+p {
+    color: rgb(203, 203, 203);
+    margin-bottom: 2vh;
+    text-align: justify;
+}
+
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(255, 157, 234, 0.5);
+    padding-inline: 1vw;
+    padding-block: 1vh;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(188, 115, 172, 0.5);
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
