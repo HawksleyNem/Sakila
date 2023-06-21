@@ -23,4 +23,7 @@
                 require './controllers/filmController.php';
         }
     }
+    else {
+        require './controllers/filmController.php';
+    }
 ?>
